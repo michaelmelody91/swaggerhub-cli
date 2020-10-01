@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to verify action
     steps:
+    - name: Checkout
+      uses: actions/checkout@v2
     - name: Call CLI
-      uses: michaelmelody91/swaggerhub-cli@v1.0.5
+      uses: michaelmelody91/swaggerhub-cli@v1.0.6
       with:
-        args: api:get michaelmelody/SimpleApi
+        args: api:update michaelmelody/SimpleApi -f ./api/test.yaml
