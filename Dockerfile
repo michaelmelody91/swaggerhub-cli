@@ -6,6 +6,6 @@ COPY ./bin ./bin
 COPY ./src ./src
 
 RUN npm install
-RUN cat /usr/src/cli/bin/run
+RUN ls /usr/src/cli/bin
 
 ENTRYPOINT ["./bin/run"]
