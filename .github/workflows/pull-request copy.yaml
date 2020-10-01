@@ -12,4 +12,4 @@ jobs:
     - name: Call CLI
       uses: michaelmelody91/swaggerhub-cli@v1.0.4
       with:
-        command: api:get michaelmelody/SimpleApi
+        command: 'api:get michaelmelody/SimpleApi'
