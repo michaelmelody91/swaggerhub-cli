@@ -8,4 +8,4 @@ COPY ./src ./src
 RUN npm install
 RUN ls /usr/src/cli/bin
 
-ENTRYPOINT ["./bin/run"]
+ENTRYPOINT ["/usr/src/cli/bin/run"]
