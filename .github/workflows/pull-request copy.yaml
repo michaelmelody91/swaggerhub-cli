@@ -10,6 +10,6 @@ jobs:
     name: A job to verify action
     steps:
     - name: Call CLI
-      uses: michaelmelody91/swaggerhub-cli@v1.0.4
+      uses: michaelmelody91/swaggerhub-cli@v1.0.5
       with:
         args: api:get michaelmelody/SimpleApi
