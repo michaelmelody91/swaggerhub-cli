@@ -1,7 +1,7 @@
 openapi: 3.0.0
 servers: []
 info:
-  description: This was pushed up via a GH Action
+  description: This was pushed up via a GH Action 2nd
   version: "1.0.0"
   title: Simple Inventory API
   contact:
