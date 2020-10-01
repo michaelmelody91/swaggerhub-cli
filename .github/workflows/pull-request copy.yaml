@@ -2,6 +2,8 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 name: Test GH Action
 on: [push]
+env:
+  SWAGGERHUB_API_KEY: ${{ secrets.SWAGGERHUB_API_KEY }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,3 +11,5 @@ jobs:
     steps:
     - name: Call CLI
       uses: michaelmelody91/swaggerhub-cli@v1.0.2
+      with:
+        command: api:get michaelmelody/SimpleApi
