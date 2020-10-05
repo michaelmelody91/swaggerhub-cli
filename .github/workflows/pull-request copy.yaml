@@ -12,6 +12,6 @@ jobs:
     # - name: Checkout
     #   uses: actions/checkout@v2
     - name: Call CLI
-      uses: michaelmelody91/swaggerhub-cli@v1.0.8
+      uses: michaelmelody91/swaggerhub-cli@v1.0.9
       with:
         args: api:update michaelmelody/SimpleApi -f ./api/test.yaml
