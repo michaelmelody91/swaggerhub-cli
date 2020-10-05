@@ -1,5 +1,8 @@
 name: 'SwaggerHub CLI'
 description: 'Automate your GitHub workflows using SwaggerHub CLI.'
+outputs:
+  output:
+    description: 'command output'
 runs:
   using: docker
-  image: Dockerfile
+  image: ./.github/action/Dockerfile
