@@ -6,4 +6,4 @@ outputs:
 runs:
   using: docker
   image: ./.github/action/Dockerfile
-  pre-entrypoint: ./.github/action/pre-action.sh
+  entrypoint: ./.github/action/entrypoint.sh
