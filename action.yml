@@ -1,5 +1,5 @@
 name: 'SwaggerHub CLI'
-description: 'Automate your GitHub workflows using SwaggerHub CLI.'
+description: 'Enable your CI/CD pipelines to manage the API definition lifecycle using the SwaggerHub CLI.'
 outputs:
   output:
     description: 'command output'
