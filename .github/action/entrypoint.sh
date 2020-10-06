@@ -1,5 +1,5 @@
 #!/bin/sh
-ls
 output=$(/usr/src/cli/bin/run $*)
+output=$(true); status=$?;
 echo "::set-output name=output::$output"
-exit $?
+exit $status

@@ -14,4 +14,4 @@ jobs:
     - name: Call CLI
       uses: michaelmelody91/swaggerhub-cli@v1.0.18
       with:
-        args: api:update michaelmelody/SimpleApi -f ./api/test.yaml
+        args: api:update michaelmelody/SimpleApi -f ./api/fail_test.yaml
