@@ -5,5 +5,5 @@ outputs:
     description: 'command output'
 runs:
   using: docker
-  image: ./.github/action/Dockerfile
+  image: Dockerfile
   entrypoint: ./.github/action/entrypoint.sh
