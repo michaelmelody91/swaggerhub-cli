@@ -1,5 +1,5 @@
 #!/bin/sh
 ls
-output=$(./bin/run $*)
+output=$(/usr/src/cli/bin/run $*)
 echo "::set-output name=output::$output"
 exit $?
