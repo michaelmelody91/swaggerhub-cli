@@ -6,4 +6,4 @@ outputs:
 runs:
   using: docker
   image: Dockerfile
-  entrypoint: ./.github/action/entrypoint.sh
+  entrypoint: /usr/src/cli/gh_entrypoint.sh
