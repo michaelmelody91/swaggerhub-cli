@@ -18,4 +18,4 @@ jobs:
       with:
         args: api:get michaelmelody/SimpleApi
     - name: Print output
-      run: echo 'output =' ${{steps.swg-cli.outputs}}
+      run: echo 'output =' ${{steps.swg-cli.outputs.response}}
