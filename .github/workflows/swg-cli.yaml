@@ -14,8 +14,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Call CLI
       id: swg-cli
-      uses: michaelmelody91/swaggerhub-cli@action_demo
+      uses: michaelmelody91/swaggerhub-cli@action_demo2
       with:
         args: api:get michaelmelody/SimpleApi
     - name: Print output
-      run: echo ${steps.swg-cli.outputs.response}
+      run: echo "${steps.swg-cli.outputs.response}"
